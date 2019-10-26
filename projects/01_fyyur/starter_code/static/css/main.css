@@ -209,3 +209,29 @@ h2.monospace {
 .subtitle {
   opacity: 0.5;
 }
+
+.lists{
+  display: flex;
+}
+
+#edit, .delete {
+ color: #000;
+}
+
+.delete:hover {
+  color: red;
+}
+
+.update {
+  margin: 4px 0 0 28px
+}
+
+.recent_listings{
+  display: flex;
+  justify-content: space-between;
+}
+
+#rec_lists {
+  height: 159px;
+  overflow: auto;
+}
